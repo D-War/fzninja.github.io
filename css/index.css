@@ -21,21 +21,19 @@ body{
 #main{
 	width: 960px;
 	margin: 0 auto;
-	overflow: hidden;
 }
 
 .header{
-	margin: 50px 5px 10px 5px;
+	margin: 50px auto 10px auto;
+	width: 99%;
 	background: #000;
-	width: 100%;
-	overflow: hidden;
+	position: relative;
 }
 
 .logo{
-	display: block;
+	display: inline-block;
 	width: 301px;
 	height: 100px;
-	float: left;
 	overflow: hidden;
 }
 
@@ -69,4 +67,138 @@ body{
 	line-height: 100px;
 	transition: color 0.3s;
 	-webkit-transition: color 0.3s;
+}
+
+#nav{
+	position: absolute;
+	display: block;
+	top: 60px;
+	right: 0;
+}
+
+#nav li{
+	position: relative;
+	float: left;
+	padding: 5px 10px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.nav_list{
+	visibility: hidden;
+	position: absolute;
+	top: 24px;
+	left:0;
+	opacity: 0;
+	background: #303030;
+	transition: opacity 0.3s;
+	-webkit-transition: opacity 0.3s;
+}
+
+.nav_list_act{
+	width: 127px;
+	padding: 6px 15px;
+	border-left: 3px solid #19a2de;
+	border-bottom: 2px solid #585454;
+	transition: border-bottom 0.3s;
+	-webkit-transition: border-bottom 0.3s;
+}
+
+.nav_list_act:hover{
+	border-bottom: 2px solid #19a2de;
+}
+
+#nav li:hover .nav_list{
+	visibility: visible; 
+	opacity: 1;
+}
+
+
+#nav .active{
+	background: #19a2de;
+}
+
+.tbg{
+	transition: background 0.3s;
+	-webkit-transition: background 0.3s;
+}
+
+.tbg:hover{
+	background: #19a2de;
+}
+
+.openBar{
+	height: 20px;
+	margin: 0 auto 10px auto;
+	width: 99%;
+	text-align: center;
+	background: #19a2de;
+	color: #fff;
+	line-height: 20px;
+	cursor: pointer;
+	transition: background 0.3s, color 0.3s;
+	-webkit-transition: background 0.3s, color 0.3s;
+}
+
+.openBar:hover{
+	background: #fff;
+	color: #19a2de;
+}
+
+.content_rep{
+	position: relative;
+	width: 100%;
+	height: 640px;
+}
+
+.content_list{
+	overflow: hidden;
+	background: rgba(114,114,114,1);
+	cursor: pointer;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	float: left;
+	margin: 5px;
+}
+
+.content_list:hover{
+	border: 5px solid #fff;
+	margin: 0;
+	background: rgba(114,114,114,0.5);
+}
+
+.one{
+	width: 310px;
+	height: 310px;
+}
+
+.two{
+	width: 310px;
+	height: 150px;
+}
+
+.three{
+	width: 150px;
+	height: 150px;
+}
+
+.four{
+	width: 150px;
+	height: 150px;
+}
+
+.ssss{
+	width: 310px;
+	height: 150px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.sssx{
+	position: absolute;
+	left: 320px;
+	bottom: 0;
+	width: 150px;
+	height: 150px;
 }
