@@ -48,11 +48,11 @@ body{
 	-webkit-transition: background 0.3s;
 }
 
-.logo:hover .logoImg{
+.header:hover .logoImg{
 	background: url(./../img/logo1.png) 0 0 no-repeat;
 }
 
-.logo:hover #pageTitle{
+.header:hover #pageTitle{
 	color: #0C97DA;
 }
 
@@ -151,20 +151,27 @@ body{
 	height: 640px;
 }
 
+.content_rep:hover .content_list{
+	background: rgba(114,114,114,0.4);
+}
+
 .content_list{
+	position: absolute;
 	overflow: hidden;
 	background: rgba(114,114,114,1);
 	cursor: pointer;
 	transition: background 0.5s;
 	-webkit-transition: background 0.5s;
-	float: left;
-	margin: 5px;
 }
 
 .content_list:hover{
 	border: 5px solid #fff;
 	margin: 0;
-	background: rgba(114,114,114,0.5);
+	background: rgba(114,114,114,1)!important;
+}
+
+.content_list:active{
+	border: 5px solid #a1a1a1;
 }
 
 .one{
@@ -187,18 +194,8 @@ body{
 	height: 150px;
 }
 
-.ssss{
+#cl1{
 	width: 310px;
-	height: 150px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-}
-
-.sssx{
-	position: absolute;
-	left: 320px;
-	bottom: 0;
-	width: 150px;
-	height: 150px;
+	height: 310px;
+	left: 5px;
 }
