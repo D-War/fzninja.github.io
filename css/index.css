@@ -69,7 +69,6 @@ body{
 
 .logo{
 	display: inline-block;
-	width: 301px;
 	height: 100px;
 	overflow: hidden;
 }
@@ -98,7 +97,6 @@ body{
 	float: left;
 	font-size: 70px;
 	color: #fff;
-	width: 215px;
 	height: 100px;
 	text-align: center;
 	line-height: 100px;
