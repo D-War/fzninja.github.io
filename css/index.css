@@ -418,6 +418,7 @@ body{
 }
 
 #cl8_t{
+	z-index: 666;
 	left: 0;
 	top: 0;
 	background: url(./../img/link1.png) center top no-repeat;
@@ -428,6 +429,7 @@ body{
 }
 
 #cl8_b{
+	z-index: 555;
 	left: 0;
 	top: 100%;
 	background: url(./../img/link.png) center top no-repeat;
@@ -506,21 +508,21 @@ body{
 
 /*下向上*/
 @keyframes bottomOrtop{
-	0% 	{ top: 0; }
-	30%	{ top: 0; }
-	40%	{ top: -100%; }
-	60%	{ top: -100%; }
-	70% { top: 0; }
-	100%{ top: 0; }
+	0% 	{ top: 0; z-index: 666;}
+	30%	{ top: 0; z-index: 666;}
+	40%	{ top: -100%; z-index: 555;}
+	60%	{ top: -100%; z-index: 555;}
+	70% { top: 0; z-index: 666;}
+	100%{ top: 0; z-index: 666;}
 }
 
 @-webkit-keyframes bottomOrtop{
-	0% 	{ top: 0; }
-	30%	{ top: 0; }
-	40%	{ top: -100%; }
-	60%	{ top: -100%; }
-	70% { top: 0; }
-	100%{ top: 0; }
+	0% 	{ top: 0; z-index: 555;}
+	30%	{ top: 0; z-index: 555;}
+	40%	{ top: -100%; z-index: 666;}
+	60%	{ top: -100%; z-index: 666;}
+	70% { top: 0; z-index: 555;}
+	100%{ top: 0; z-index: 555;}
 }
 
 @-webkit-keyframes bottomOrtop2{
