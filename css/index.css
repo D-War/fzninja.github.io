@@ -15,7 +15,20 @@ html {overflow-y: scroll;}
 
 body{
 	font-family: "微软雅黑";
-	background: url(./../img/bg_pattern.png) repeat;
+	background: url(./../img/background4.jpg) center top no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	-webkit-background-size:cover;
+}
+
+#fix{
+	z-index: -111;
+	left: 0;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url(./../img/bg_pattern1.png) repeat;
 }
 
 #main{
@@ -174,28 +187,94 @@ body{
 	border: 5px solid #a1a1a1;
 }
 
-.one{
-	width: 310px;
-	height: 310px;
-}
-
-.two{
-	width: 310px;
-	height: 150px;
-}
-
-.three{
-	width: 150px;
-	height: 150px;
-}
-
-.four{
-	width: 150px;
-	height: 150px;
-}
 
 #cl1{
 	width: 310px;
 	height: 310px;
 	left: 5px;
+	top: 0;
+}
+
+#cl2{
+	width: 310px;
+	height: 150px;
+	left: 325px;
+	top: 0;
+}
+
+#cl3{
+	width: 310px;
+	height: 150px;
+	left: 645px;
+	top: 0;
+}
+
+#cl4{
+	width: 310px;
+	height: 150px;
+	left: 325px;
+	top: 160px;
+}
+
+#cl5{
+	width: 310px;
+	height: 310px;
+	left: 645px;
+	top: 160px;
+}
+
+#cl6{
+	width: 150px;
+    height: 150px;
+    left: 5px;
+    top: 320px;
+}
+
+#cl7{
+	width: 150px;
+    height: 150px;
+    left: 165px;
+    top: 320px;
+}
+
+#cl8{
+	width: 150px;
+    height: 150px;
+    left: 325px;
+    top: 320px;
+}
+
+#cl9{
+	width: 150px;
+    height: 150px;
+    left: 485px;
+    top: 320px;
+}
+
+#cl10{
+	width: 310px;
+    height: 150px;
+    left: 5px;
+    top: 480px;
+}
+
+#cl11{
+	width: 310px;
+    height: 150px;
+    left: 325px;
+    top: 480px;
+}
+
+#cl12{
+	width: 150px;
+    height: 150px;
+    left: 645px;
+    top: 480px;
+}
+
+#cl13{
+	width: 150px;
+    height: 150px;
+    left: 805px;
+    top: 480px;
 }
