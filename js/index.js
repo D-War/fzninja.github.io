@@ -1,3 +1,3 @@
 window.onload = function(){
-	// $("#loader").hide();
+	$("#loader").hide();
 }

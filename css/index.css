@@ -200,7 +200,6 @@ body{
 	border: 5px solid #a1a1a1;
 }
 
-
 #cl1{
 	width: 310px;
 	height: 310px;
@@ -296,6 +295,11 @@ body{
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	transition: transform 0.5s;
+}
+
+.content_list:hover .clImg{
+	transform: scale(1.5);
 }
 
 #cl1_l{
