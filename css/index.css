@@ -315,7 +315,7 @@ body{
 
 .clTitle{
 	position: absolute;
-	right: 0;
+	right: 10px;
 	top: 10px;
 	z-index: 999;
 }

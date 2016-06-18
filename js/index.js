@@ -1,6 +1,7 @@
 window.onload = function(){
 	$(".loader").hide();
 	boxClick();
+	judge();
 }
 
 window.onhashchange = function(){
@@ -13,10 +14,7 @@ function boxClick(){
 		Jump($(this).data('url'));
 	});
 	$("#fix2").click(function(){
-		$("#frameSrc").attr("src","");
-		$("#frameBox").fadeOut();
-		$("#fix").fadeIn();
-		$("#fix2").fadeOut();
+		window.location.href = "#";
 	});
 }
 
@@ -39,6 +37,8 @@ function judge(){
 			case 'fz-video':
 				fzVideo();
 		}
+	} else if ( urlHash == "" ){
+		clearDom();
 	}
 }
 
@@ -46,15 +46,26 @@ function judge(){
 //打开fz-video
 function fzVideo(){
 	$("#frameSrc").attr("src","./assembly/fzVideo/demo.html");
-	$("#frameSrc").css({
-		'width' 	: '953px',
-		'height'	: '537px'
+	$("#frameSrc").animate({
+		'width' 	: '968px',
+		'height'	: '743px'
 	});
 	$("#frameBox").fadeIn();
 	$("#fix").fadeOut();
 	$("#fix2").fadeIn();
 }
 
+//清空hash
+function clearDom(){
+	$("#frameSrc").attr("src","");
+	$("#frameSrc").animate({
+		'width' 	: '0',
+		'height'	: '0'
+	});
+	$("#frameBox").fadeOut();
+	$("#fix").fadeIn();
+	$("#fix2").fadeOut();
+}
 
 
 
