@@ -15,8 +15,6 @@ html {overflow-y: scroll;}
 
 body{
 	font-family: "微软雅黑";
-	transition: background 0.5s;
-	-webkit-transition: background 0.5s;
 }
 
 .bodyBg{
