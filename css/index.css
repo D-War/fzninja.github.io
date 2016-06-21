@@ -822,13 +822,7 @@ body{
 	background: #404040;
 }
 
-#loader1{
-	overflow-x: hidden;
-	z-index: 10051;
-}
-
 #frameSrc{
-	z-index: 10052;
 	border: none;
 	overflow-y: hidden;
 	overflow-x: hidden;
