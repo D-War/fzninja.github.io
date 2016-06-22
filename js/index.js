@@ -30,7 +30,7 @@ function judge(){
 	var urlHash = window.location.hash;
 	urlHash 	= urlHash.split('/');
 	urlHashOne 	= urlHash[1];
-	if( urlHash[1] == 'assembly' ){
+	if( urlHashOne == 'assembly' ){
 		urlHashTwo = urlHash[2];
 		switch(urlHashTwo)
 		{
