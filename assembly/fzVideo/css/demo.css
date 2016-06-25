@@ -91,55 +91,7 @@ body{
 	display: inline-block;
 	padding-left: 23px;
 }
-.message{
-	width: 893px;
-	padding: 15px 30px;
-	background: #f4f4f4;
-	overflow: hidden;
-	position: relative;
-}
-#noInsertMsg{
-	top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    font-size: 12px;
-	text-align: center;
-	line-height: 134px;
-	display: none;
-}
-#msgTxt{
-	width: 871px;
-	height: 40px;
-	resize: none;
-	border: 1px solid #e8e8e8;
-	border-radius: 5px;
-	outline: none;
-	padding: 10px;
-}
-#msgBtn{
-	height: 30px;
-	display: block;
-	float: right;
-	background: #ffffff;
-	border: 1px solid #c3c3c3;
-	border-radius: 5px;
-	width: 75px;
-	margin: 10px 0 0 0;
-	outline: none;
-}
 
-#msgBtn:hover{
-	background: #f7f7f7;
-	cursor: pointer;
-}
-
-#msgBtn:active{
-	background: #dcdcdc;
-}
 #msgList{
 	overflow:hidden;
 	width: 893px;
@@ -152,9 +104,7 @@ body{
 	padding: 10px 0;
 	border-top: 1px solid #e0e0e0;
 }
-.msgTitle{
-	margin-bottom: 20px;
-}
+
 .msgName{
 	color: #1767c8;
 	display: inline-block;
@@ -198,9 +148,11 @@ body{
 	display: none;
 }
 
-.altMsg{
-	text-align: center;
-	height: 150px;
-	line-height: 150px;
+.ds-post-button{
+	outline: none;
+}
+
+.ds-powered-by{
+	display: none;
 }
 
