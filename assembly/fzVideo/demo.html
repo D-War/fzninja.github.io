@@ -25,13 +25,23 @@
 		</p>
 	</div>
 	<div id="msgList">
-	<!-- 评论框 start -->
-	<div class="ds-thread" data-thread-key="" data-title="" data-url=""></div>
-	<!-- 评论框 end -->
+	<!-- 多说评论框 start -->
+	<div id="dsThread" class="ds-thread" data-thread-key="fzVideo" data-title="fzVideo" data-url="https://fzninja.github.io/#/assembly/fz-video"></div>
+	<!-- 多说评论框 end -->
 	</div>
-
 <script src="./js/jquery.min.js"></script>
 <script src="./js/fz-video.js"></script>
+<script type="text/javascript">
+	var duoshuoQuery = {short_name:"fzninja"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+</script>
 <script>
  	var FZ_VIDEO = new createVideo(
  		"testBox",	//容器的id
