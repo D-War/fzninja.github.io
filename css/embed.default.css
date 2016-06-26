@@ -2056,7 +2056,7 @@
 	background-repeat: no-repeat;
 	color: #999;
 	text-decoration: none;
-	_background-image: url("http://static.duoshuo.com/images/service-icons-color-32.gif");
+	_background-image: url("./../service-icons-color-32.gif");
 }
 
 #ds-share #ds-reset .ds-share-icons-32 .ds-weibo {
