@@ -81,7 +81,7 @@
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	background: #666 url("data:image/gif;base64,R0lGODlhEAAQAPQAAGZmZv///2lpadzc3K+vr/r6+ufn5319fZmZmfDw8Le3t8DAwHV1daOjo4eHh9LS0srKygAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAAFUCAgjmRpnqUwFGwhKoRgqq2YFMaRGjWA8AbZiIBbjQQ8AmmFUJEQhQGJhaKOrCksgEla+KIkYvC6SJKQOISoNSYdeIk1ayA8ExTyeR3F749CACH5BAkKAAAALAAAAAAQABAAAAVoICCKR9KMaCoaxeCoqEAkRX3AwMHWxQIIjJSAZWgUEgzBwCBAEQpMwIDwY1FHgwJCtOW2UDWYIDyqNVVkUbYr6CK+o2eUMKgWrqKhj0FrEM8jQQALPFA3MAc8CQSAMA5ZBjgqDQmHIyEAIfkECQoAAAAsAAAAABAAEAAABWAgII4j85Ao2hRIKgrEUBQJLaSHMe8zgQo6Q8sxS7RIhILhBkgumCTZsXkACBC+0cwF2GoLLoFXREDcDlkAojBICRaFLDCOQtQKjmsQSubtDFU/NXcDBHwkaw1cKQ8MiyEAIfkECQoAAAAsAAAAABAAEAAABVIgII5kaZ6AIJQCMRTFQKiDQx4GrBfGa4uCnAEhQuRgPwCBtwK+kCNFgjh6QlFYgGO7baJ2CxIioSDpwqNggWCGDVVGphly3BkOpXDrKfNm/4AhACH5BAkKAAAALAAAAAAQABAAAAVgICCOZGmeqEAMRTEQwskYbV0Yx7kYSIzQhtgoBxCKBDQCIOcoLBimRiFhSABYU5gIgW01pLUBYkRItAYAqrlhYiwKjiWAcDMWY8QjsCf4DewiBzQ2N1AmKlgvgCiMjSQhACH5BAkKAAAALAAAAAAQABAAAAVfICCOZGmeqEgUxUAIpkA0AMKyxkEiSZEIsJqhYAg+boUFSTAkiBiNHks3sg1ILAfBiS10gyqCg0UaFBCkwy3RYKiIYMAC+RAxiQgYsJdAjw5DN2gILzEEZgVcKYuMJiEAOwAAAAAAAAAAAA==") 8px 8px no-repeat;
-	*background-image: url("//static.duoshuo.com/images/loading.gif");
+	*background-image: url("http://static.duoshuo.com/images/loading.gif");
 	*position: absolute;
 }
 
@@ -93,7 +93,7 @@
 	height: 11px;
 	background: url("data:image/gif;base64,R0lGODlhEAALAPQAAP///z2LqeLt8dvp7u7090GNqz2LqV+fuJ/F1IW2ycrf51aatHWswaXJ14i4ys3h6FmctUCMqniuw+vz9eHs8fb5+meku+Tu8vT4+cfd5bbT3tbm7PH2+AAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCwAAACwAAAAAEAALAAAFLSAgjmRpnqSgCuLKAq5AEIM4zDVw03ve27ifDgfkEYe04kDIDC5zrtYKRa2WQgAh+QQJCwAAACwAAAAAEAALAAAFJGBhGAVgnqhpHIeRvsDawqns0qeN5+y967tYLyicBYE7EYkYAgAh+QQJCwAAACwAAAAAEAALAAAFNiAgjothLOOIJAkiGgxjpGKiKMkbz7SN6zIawJcDwIK9W/HISxGBzdHTuBNOmcJVCyoUlk7CEAAh+QQJCwAAACwAAAAAEAALAAAFNSAgjqQIRRFUAo3jNGIkSdHqPI8Tz3V55zuaDacDyIQ+YrBH+hWPzJFzOQQaeavWi7oqnVIhACH5BAkLAAAALAAAAAAQAAsAAAUyICCOZGme1rJY5kRRk7hI0mJSVUXJtF3iOl7tltsBZsNfUegjAY3I5sgFY55KqdX1GgIAIfkECQsAAAAsAAAAABAACwAABTcgII5kaZ4kcV2EqLJipmnZhWGXaOOitm2aXQ4g7P2Ct2ER4AMul00kj5g0Al8tADY2y6C+4FIIACH5BAkLAAAALAAAAAAQAAsAAAUvICCOZGme5ERRk6iy7qpyHCVStA3gNa/7txxwlwv2isSacYUc+l4tADQGQ1mvpBAAIfkECQsAAAAsAAAAABAACwAABS8gII5kaZ7kRFGTqLLuqnIcJVK0DeA1r/u3HHCXC/aKxJpxhRz6Xi0ANAZDWa+kEAA7AAAAAAAAAAAA") 0 0 no-repeat;
 	cursor: wait;
-	*background-image: url("//static.duoshuo.com/images/waiting.gif");
+	*background-image: url("http://static.duoshuo.com/images/waiting.gif");
 }
 
 #ds-reset .ds-highlight {
@@ -159,7 +159,7 @@
 #ds-reset .ds-icon {
 	display: inline-block;
 	overflow: hidden;
-	background: transparent url("http://static.duoshuo.com/images/sprites.png") no-repeat;
+	background: transparent url("http:http://static.duoshuo.com/images/sprites.png") no-repeat;
 	vertical-align: middle;
 	_background-image: url("http://static.duoshuo.com/images/sprites.gif");
 }
@@ -191,12 +191,12 @@
 	height: 16px !important;
 	background: url("./../img/service-icons-color.png?v=2") no-repeat;
 	line-height: 100px;
-	_background-image: url("http//static.duoshuo.com/images/service-icons-color.gif?v=2");
+	_background-image: url("http://static.duoshuo.com/images/service-icons-color.gif?v=2");
 }
 
 #ds-reset .ds-service-icon-grey {
-	background-image: url("//static.duoshuo.com/images/service-icons-grey.png");
-	_background-image: url("//static.duoshuo.com/images/service-icons-grey.gif");
+	background-image: url("http://static.duoshuo.com/images/service-icons-grey.png");
+	_background-image: url("http://static.duoshuo.com/images/service-icons-grey.gif");
 }
 
 #ds-reset .ds-service-link {
@@ -206,7 +206,7 @@
 	height: 16px !important;
 	background: url("./../img/service-icons-color.png?v=2") no-repeat;
 	line-height: 16px;
-	_background-image: url("//static.duoshuo.com/images/service-icons-color.gif?v=2");
+	_background-image: url("http://static.duoshuo.com/images/service-icons-color.gif?v=2");
 }
 
 #ds-reset .ds-weibo {
@@ -262,7 +262,7 @@
 	overflow: hidden;
 	width: 32px !important;
 	height: 32px !important;
-	background: url("//static.duoshuo.com/images/icons_large.png") no-repeat !important;
+	background: url("http://static.duoshuo.com/images/icons_large.png") no-repeat !important;
 	text-indent: -9999px;
 	cursor: pointer;
 }
@@ -829,13 +829,13 @@
 	margin-right: 4px;
 	width: 19px !important;
 	height: 19px;
-	background: transparent url("//static.duoshuo.com/images/sprites.png") no-repeat;
+	background: transparent url("http://static.duoshuo.com/images/sprites.png") no-repeat;
 	vertical-align: middle;
 	opacity: .6;
 	-webkit-transition: opacity .15s linear;
 	-moz-transition: opacity .15s linear;
 	transition: opacity .15s linear;
-	_background-image: url("//static.duoshuo.com/images/sprites.gif");
+	_background-image: url("http://static.duoshuo.com/images/sprites.gif");
 }
 
 #ds-thread #ds-reset .ds-toolbar-button:hover {
@@ -1723,8 +1723,8 @@
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: transparent url("//static.duoshuo.com/images/sprites.png") 0 -163px no-repeat;
-	_background-image: url("//static.duoshuo.com/images/sprites.gif");
+	background: transparent url("http://static.duoshuo.com/images/sprites.png") 0 -163px no-repeat;
+	_background-image: url("http://static.duoshuo.com/images/sprites.gif");
 }
 
 #ds-wrapper #ds-reset .ds-dialog-close:hover {
@@ -1736,7 +1736,7 @@
 	margin-right: 10px;
 	width: 64px;
 	height: 21px;
-	background: url("//static.duoshuo.com/images/logo.png") 0 0 no-repeat;
+	background: url("http://static.duoshuo.com/images/logo.png") 0 0 no-repeat;
 }
 
 #ds-wrapper #ds-reset .ds-dialog-footer {
@@ -1784,7 +1784,7 @@
 	overflow: hidden;
 	width: 14px;
 	height: 14px;
-	background: transparent url("//static.duoshuo.com/images/delete.gif") no-repeat scroll 0 -14px;
+	background: transparent url("http://static.duoshuo.com/images/delete.gif") no-repeat scroll 0 -14px;
 	text-indent: -9999px;
 }
 
@@ -1843,8 +1843,8 @@
 	display: block;
 	width: 18px;
 	height: 14px;
-	background: transparent url("//static.duoshuo.com/images/sprites.png") 0 -220px no-repeat;
-	_background-image: url("//static.duoshuo.com/images/sprites.gif");
+	background: transparent url("http://static.duoshuo.com/images/sprites.png") 0 -220px no-repeat;
+	_background-image: url("http://static.duoshuo.com/images/sprites.gif");
 }
 
 #ds-notify #ds-reset span.ds-unread-count {
@@ -2172,8 +2172,8 @@
 }
 
 #ds-share #ds-reset .ds-share-icons-32 .flat {
-	background-image: url("//static.duoshuo.com/images/service-icons-color-flat-32.png");
-	_background-image: url("//static.duoshuo.com/images/service-icons-color-flat-32.gif");
+	background-image: url("http://static.duoshuo.com/images/service-icons-color-flat-32.png");
+	_background-image: url("http://static.duoshuo.com/images/service-icons-color-flat-32.gif");
 }
 
 #ds-share #ds-reset .ds-share-icons-16 .ds-weibo,#ds-share #ds-reset .ds-share-icons-16 .ds-sohu,#ds-share #ds-reset .ds-share-icons-16 .ds-renren,#ds-share #ds-reset .ds-share-icons-16 .ds-netease,#ds-share #ds-reset .ds-share-icons-16 .ds-qqt,#ds-share #ds-reset .ds-share-icons-16 .ds-kaixin,#ds-share #ds-reset .ds-share-icons-16 .ds-douban,#ds-share #ds-reset .ds-share-icons-16 .ds-msn,#ds-share #ds-reset .ds-share-icons-16 .ds-qzone,#ds-share #ds-reset .ds-share-icons-16 .ds-duoshuo,#ds-share #ds-reset .ds-share-icons-16 .ds-360,#ds-share #ds-reset .ds-share-icons-16 .ds-alipay,#ds-share #ds-reset .ds-share-icons-16 .ds-qq,#ds-share #ds-reset .ds-share-icons-16 .ds-baidu,#ds-share #ds-reset .ds-share-icons-16 .ds-taobao,#ds-share #ds-reset .ds-share-icons-16 .ds-google,#ds-share #ds-reset .ds-share-icons-16 .ds-more,#ds-share #ds-reset .ds-share-icons-16 .ds-wechat,#ds-share #ds-reset .ds-share-icons-16 .ds-diandian,#ds-share #ds-reset .ds-share-icons-16 .ds-huaban,#ds-share #ds-reset .ds-share-icons-16 .ds-duitang,#ds-share #ds-reset .ds-share-icons-16 .ds-youdao,#ds-share #ds-reset .ds-share-icons-16 .ds-pengyou,#ds-share #ds-reset .ds-share-icons-16 .ds-facebook,#ds-share #ds-reset .ds-share-icons-16 .ds-twitter,#ds-share #ds-reset .ds-share-icons-16 .ds-linkedin,#ds-share #ds-reset .ds-share-icons-16 .ds-meilishuo,#ds-share #ds-reset .ds-share-icons-16 .ds-mogujie {
@@ -2185,7 +2185,7 @@
 	color: #999;
 	text-decoration: none;
 	line-height: 16px;
-	_background-image: url("//static.duoshuo.com/images/service-icons-color.gif?v=2");
+	_background-image: url("http://static.duoshuo.com/images/service-icons-color.gif?v=2");
 }
 
 #ds-share #ds-reset .ds-share-icons-16 .ds-weibo {
@@ -2301,8 +2301,8 @@
 }
 
 #ds-share #ds-reset .ds-share-icons-16 .flat {
-	background-image: url("//static.duoshuo.com/images/service-icons-color-flat.png");
-	_background-image: url("//static.duoshuo.com/images/service-icons-color-flat.gif");
+	background-image: url("http://static.duoshuo.com/images/service-icons-color-flat.png");
+	_background-image: url("http://static.duoshuo.com/images/service-icons-color-flat.gif");
 }
 
 #ds-share #ds-reset .ds-share-icons {
