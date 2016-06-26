@@ -54,7 +54,7 @@ body{
 .describe h1{
 	font-size: 20px;
 	color: #fbfbfb;
-	margin: 20px 0;
+	margin-bottom: 20px;
 }
 
 .describe .down{
@@ -73,6 +73,70 @@ body{
     cursor: pointer;
 }
 
+.btn__count{
+	display: inline-block;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 10px;
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid #cbd0d3;
+}
+
+.btn__count2{
+	display: block;
+    border-radius: 4px;
+    position: relative;
+    padding: 5px 0;
+    background: #fff;
+    border: 1px solid #cbd0d3;
+    text-align: center;
+    color: #555;
+}
+
+.btn__count2:hover{
+	cursor: pointer;
+	background-image: linear-gradient(#ffffff,#9da8af);
+    background-color: #9da8af;
+}
+
+.btn__count2:active{
+	background-image: linear-gradient(#ffffff,#b1d5ea);
+    background-color: #b1d5ea;
+}
+
+.btn__count::before{
+	position: absolute;
+	display: block;
+    width: 8px;
+    height: 8px;
+    left: 1px;
+    top: 50%;
+    margin-top: -4px;
+    background: inherit;
+    border: inherit;
+    border-width: 1px 0 0 1px;
+    -webkit-transform: rotate(-45deg) translate(-50%,-50%);
+    transform: rotate(-45deg) translate(-50%,-50%);
+    content:"";
+}
+
+.btn__count2::before{
+	position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    left: 49.5%;
+    top: 77%;
+    margin-top: -4px;
+    background: inherit;
+    border: inherit;
+    border-width: 1px 0 0 1px;
+    -webkit-transform: rotate(-45deg) translate(-50%,-50%);
+    transform: rotate(-134deg) translate(-50%,-50%);
+    content: "";
+}
+
 .describe .down:hover{
 	background-image: linear-gradient(#b3c3ce,#258cd1);
 	text-decoration: none;
@@ -84,7 +148,7 @@ body{
 
 .contents{
 	color: #bfbfbf;
-	margin: 20px 0 0 0;
+	margin: 15px 0 15px 0;
 	line-height: 20px;
 }
 

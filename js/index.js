@@ -48,7 +48,7 @@ function fzVideo(){
 	$("#frameSrc").attr("src","./assembly/fzVideo/demo.html");
 	$("#frameSrc").animate({
 		'width' 	: '953px',
-		'height'	: '743px'
+		'height'	: '779px'
 	});
 	$("#frameBox").fadeIn();
 	$("#fix").fadeOut();
