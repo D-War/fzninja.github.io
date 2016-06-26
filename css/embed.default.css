@@ -189,7 +189,7 @@
 	overflow: hidden;
 	width: 16px !important;
 	height: 16px !important;
-	background: url("http//static.duoshuo.com/images/service-icons-color.png?v=2") no-repeat;
+	background: url("./../img/service-icons-color.png?v=2") no-repeat;
 	line-height: 100px;
 	_background-image: url("http//static.duoshuo.com/images/service-icons-color.gif?v=2");
 }
@@ -204,7 +204,7 @@
 	overflow: hidden;
 	padding-left: 20px;
 	height: 16px !important;
-	background: url("//static.duoshuo.com/images/service-icons-color.png?v=2") no-repeat;
+	background: url("./../img/service-icons-color.png?v=2") no-repeat;
 	line-height: 16px;
 	_background-image: url("//static.duoshuo.com/images/service-icons-color.gif?v=2");
 }
@@ -2180,7 +2180,7 @@
 	display: block;
 	overflow: hidden;
 	padding-left: 20px;
-	background-image: url("//static.duoshuo.com/images/service-icons-color.png?v=2");
+	background-image: url("./../img/service-icons-color.png?v=2");
 	background-repeat: no-repeat;
 	color: #999;
 	text-decoration: none;
