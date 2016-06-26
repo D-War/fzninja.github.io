@@ -33,6 +33,14 @@ body{
 	font-family: "微软雅黑";
 }
 
+::scrollbar{
+	width: 0;
+}
+
+::-webkit-scrollbar{
+	width: 0;
+}
+
 #testBox{
 	width: 953px;
 	height: 537px;
