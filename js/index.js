@@ -1,8 +1,11 @@
 window.onload = function(){
 	$("#loader").hide();
+}
+
+$(document).ready(function(){
 	boxClick();
 	judge();
-}
+});
 
 window.onhashchange = function(){
 	judge();
