@@ -159,7 +159,7 @@
 #ds-reset .ds-icon {
 	display: inline-block;
 	overflow: hidden;
-	background: transparent url("http:http://static.duoshuo.com/images/sprites.png") no-repeat;
+	background: transparent url("./../img/static.duoshuo.com/images/sprites.png") no-repeat;
 	vertical-align: middle;
 	_background-image: url("http://static.duoshuo.com/images/sprites.gif");
 }
@@ -829,7 +829,7 @@
 	margin-right: 4px;
 	width: 19px !important;
 	height: 19px;
-	background: transparent url("http://static.duoshuo.com/images/sprites.png") no-repeat;
+	background: transparent url("./../img/static.duoshuo.com/images/sprites.png") no-repeat;
 	vertical-align: middle;
 	opacity: .6;
 	-webkit-transition: opacity .15s linear;
@@ -1723,7 +1723,7 @@
 	overflow: hidden;
 	width: 13px;
 	height: 13px;
-	background: transparent url("http://static.duoshuo.com/images/sprites.png") 0 -163px no-repeat;
+	background: transparent url("./../img/static.duoshuo.com/images/sprites.png") 0 -163px no-repeat;
 	_background-image: url("http://static.duoshuo.com/images/sprites.gif");
 }
 
@@ -1843,7 +1843,7 @@
 	display: block;
 	width: 18px;
 	height: 14px;
-	background: transparent url("http://static.duoshuo.com/images/sprites.png") 0 -220px no-repeat;
+	background: transparent url("./../img/static.duoshuo.com/images/sprites.png") 0 -220px no-repeat;
 	_background-image: url("http://static.duoshuo.com/images/sprites.gif");
 }
 
