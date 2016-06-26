@@ -2052,7 +2052,7 @@
 	overflow: hidden;
 	width: 32px;
 	height: 32px;
-	background-image: url("http://static.duoshuo.com/images/service-icons-color-32.png");
+	background-image: url("./../img/service-icons-color-32.png");
 	background-repeat: no-repeat;
 	color: #999;
 	text-decoration: none;
