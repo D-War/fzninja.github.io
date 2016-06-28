@@ -39,8 +39,10 @@ function judge(){
 		{
 			case 'fz-video'	:
 				fzVideo();
+				break;
 			case 'fz-live'	:
 				fzLive();
+				break;
 		}
 	} else if ( urlHash == "" ){
 		clearDom();
