@@ -362,27 +362,35 @@ body{
 	width: 100%;
 	height: 100%;
 	transition: transform 0.5s;
+	color: #fff;
+}
+
+.clImg .clTitle{
+	width: 100%;
+	margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.clImg .clClass{
+	width: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.clImg .clContent{
+	width: 94%;
+	margin-left: 10px;
+	font-size: 15px;
 }
 
 .content_list:hover .clImg{
 	transform: scale(1.5);
 }
 
-.clTitle{
-	position: absolute;
-	right: 10px;
-	top: 10px;
-	z-index: 999;
-}
-
-.clTitle h2{
-	font-size: 25px;
-}
-
-.clTitle p{
-	font-size: 15px;
-	text-align: right;
-}
 
 .titleGreen{
 	color: #8CBE29;
@@ -449,7 +457,7 @@ body{
 #cl7_z{
 	left: 0;
 	top: 0;
-	background: url(./../img/quotation_2.png) center top no-repeat;
+	background: #281608;
 	transform: rotateX(-180deg);
 	animation: fz 5s;
 	animation-iteration-count:infinite;
@@ -463,7 +471,7 @@ body{
 #cl7_f{
 	left: 0;
 	top: 0;
-	background: url(./../img/quotation_1.png) center top no-repeat;
+	background: #000;
 	transform: rotateX(0deg);
 	animation: fz2 5s;
 	animation-iteration-count:infinite;
@@ -478,7 +486,7 @@ body{
 	z-index: 666;
 	left: 0;
 	top: 0;
-	background: url(./../img/link1.png) center top no-repeat;
+	background: #ef9608;
 	animation: bottomOrtop 10s;
 	animation-iteration-count:infinite;
 	-webkit-animation: bottomOrtop 10s;
@@ -489,7 +497,7 @@ body{
 	z-index: 555;
 	left: 0;
 	top: 100%;
-	background: url(./../img/link.png) center top no-repeat;
+	background: #8cbe29;
 	animation: bottomOrtop2 10s;
 	animation-iteration-count:infinite;
 	-webkit-animation: bottomOrtop2 10s;

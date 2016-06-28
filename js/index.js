@@ -41,7 +41,7 @@ function judge(){
 				fzAssembly("./assembly/fzVideo/demo.html",'953px','779px');
 				break;
 			case 'fz-live'	:
-				fzAssembly("./assembly/fzLive/demo.html",'953px','779px');
+				fzAssembly("./assembly/fzLive/demo.html",'953px','798px');
 				break;
 		}
 	} else if ( urlHash == "" ){
