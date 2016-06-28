@@ -3,18 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>fz-video</title>
-<link rel="stylesheet" href="./css/fz-video.css">
-<link rel="stylesheet" href="./css/font/iconfont.css">
+<link rel="stylesheet" href="./css/video.css">
 <link rel="stylesheet" href="./../../css/assembly-public.css">
 <link rel="stylesheet" href="./../../css/embed.default.css">
 </head>
 <body>
-	<span id="PAGENAME">FZ-video</span>
+	<span id="PAGENAME">FZ-live</span>
 	<div id="testBox">
-
+			<video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="953" height="537" 
+  data-setup='{}'>
+    		<source src="http://118.180.22.132/live.aishang.ctlcdn.com/00000110240127_1/encoder/1/playlist.m3u8" type="application/x-mpegURL">
+  		</video>
 	</div>
 	<div class="describe">
-		<h1>Fz-Video,一款简单的html5播放器插件</h1>
+		<h1>Fz-live,基于videojs的视频直播流插件</h1>
 		<a href="https://github.com/fzninja/FZ-video" target="_blank" class="down">
 			<i class="iconfont">&#xe606;</i>
 			<span>Download on GitHub</span>
@@ -23,8 +25,8 @@
 			<span id="git_star">获取star...</span>
 		</span>
 		<p class="contents">
-			简单实用的播放器插件,不依赖任何框架,也可和框架搭配使用.<br>
-			只需引入依赖文件即可.<br>
+			只需设置m3u8地址即可播放直播流.<br>
+			引入对应依赖文件后,将video标签插入对应位置即可.<br>
 			好用请记得Star~
 		</p>
 		<span class="btn__count2" id="btn_bttom">
@@ -37,7 +39,7 @@
 	<!-- 多说评论框 end -->
 	</div>
 <script src="./../../js/jquery.min.js"></script>
-<script src="./js/fz-video.js"></script>
+<script src="./js/videojs-live.js"></script>
 <script type="text/javascript">
 	var duoshuoQuery = {short_name:"fzninja"};
 	(function() {
@@ -50,13 +52,7 @@
 	})();
 </script>
 <script>
- 	var FZ_VIDEO = new createVideo(
- 		"testBox",	//容器的id
- 		{
- 			url 		: 'http://171.15.197.89/xdispatch/o8t28neoq.bkt.clouddn.com/test.mp4', 	//视频地址
- 			autoplay	: true				//是否自动播放
- 		}
- 	);
+ 	
 </script>
 <script src="./../../js/assembly-public.js"></script>
 </body>
