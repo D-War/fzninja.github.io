@@ -37,8 +37,10 @@ function judge(){
 		urlHashTwo = urlHash[2];
 		switch(urlHashTwo)
 		{
-			case 'fz-video':
+			case 'fz-video'	:
 				fzVideo();
+			case 'fz-live'	:
+				fzLive();
 		}
 	} else if ( urlHash == "" ){
 		clearDom();
@@ -49,6 +51,18 @@ function judge(){
 //打开fz-video
 function fzVideo(){
 	$("#frameSrc").attr("src","./assembly/fzVideo/demo.html");
+	$("#frameSrc").animate({
+		'width' 	: '953px',
+		'height'	: '779px'
+	});
+	$("#frameBox").fadeIn();
+	$("#fix").fadeOut();
+	$("#fix2").fadeIn();
+}
+
+//打开fz-live
+function fzLive(){
+	$("#frameSrc").attr("src","./assembly/fzLive/demo.html");
 	$("#frameSrc").animate({
 		'width' 	: '953px',
 		'height'	: '779px'
