@@ -407,7 +407,7 @@ body{
 #cl1_l{
 	left: 0;
 	top: 0;
-	background: url(./../img/article1_left.png) center top no-repeat;
+	background: #cccccc;
 	animation: rightOrleft1 10s;
 	animation-iteration-count:infinite;
 	-webkit-animation: rightOrleft1 15s;
@@ -417,7 +417,7 @@ body{
 #cl1_r{
 	left: 100%;
 	top: 0;
-	background: url(./../img/article1_right.png) center top no-repeat;
+	background: #cccccc;
 	animation: rightOrleft2 10s;
 	animation-iteration-count:infinite;
 	-webkit-animation: rightOrleft2 15s;
@@ -427,31 +427,31 @@ body{
 #cl2_t{
 	left: 0;
 	top: 0;
-	background: url(./../img/article2_med.png) center top no-repeat;
+	background: #cccccc;
 }
 
 #cl3_t{
 	left: 0;
 	top: 0;
-	background: url(./../img/item1_med.png) center top no-repeat;
+	background: #cccccc;
 }
 
 #cl4_t{
 	left: 0;
 	top: 0;
-	background: url(./../img/article3_med.png) center top no-repeat;
+	background: #cccccc;
 }
 
 #cl5_t{
 	left: 0;
 	top: 0;
-	background: url(./../img/item2_large.png) center top no-repeat;
+	background: #cccccc;
 }
 
 #cl6_t{
 	left: 0;
 	top: 0;
-	background: url(./../img/video1.jpg) center top no-repeat;
+	background: #cccccc;
 }
 
 #cl7_z{
@@ -507,31 +507,31 @@ body{
 #cl9_t{
 	left: 0;
 	top: 0;
-	background: url(./../img/item4_sq.png) center top no-repeat;
+	background: #cccccc;
 }
 
 #cl10_t{
 	left: 0;
 	top: 0;
-	background: url(./../img/item3_med.png) center top no-repeat;
+	background: #cccccc;
 }
 
 #cl11_t{
 	left: 0;
 	top: 0;
-	background: url(./../img/article4_med.png) center top no-repeat;
+	background: #cccccc;
 }
 
 #cl12_t{
 	left: 0;
 	top: 0;
-	background: url(./../img/item5_sq.png) center top no-repeat;
+	background: #cccccc;
 }
 
 #cl13_t{
 	left: 0;
 	top: 0;
-	background: url(./../img/item6_sq.png) center top no-repeat;
+	background: #cccccc;
 }
 
 /*右向左*/
