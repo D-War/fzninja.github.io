@@ -38,10 +38,10 @@ function judge(){
 		switch(urlHashTwo)
 		{
 			case 'fz-video'	:
-				fzVideo();
+				fzAssembly("./assembly/fzVideo/demo.html",'953px','779px');
 				break;
 			case 'fz-live'	:
-				fzLive();
+				fzAssembly("./assembly/fzLive/demo.html",'953px','779px');
 				break;
 		}
 	} else if ( urlHash == "" ){
@@ -50,29 +50,18 @@ function judge(){
 }
 
 
-//打开fz-video
-function fzVideo(){
-	$("#frameSrc").attr("src","./assembly/fzVideo/demo.html");
+//跳转插件页方法
+function fzAssembly(Aurl,w,h){
+	$("#frameSrc").attr("src",Aurl);
 	$("#frameSrc").animate({
-		'width' 	: '953px',
-		'height'	: '779px'
+		'width' 	: w,
+		'height'	: h
 	});
 	$("#frameBox").fadeIn();
 	$("#fix").fadeOut();
 	$("#fix2").fadeIn();
 }
 
-//打开fz-live
-function fzLive(){
-	$("#frameSrc").attr("src","./assembly/fzLive/demo.html");
-	$("#frameSrc").animate({
-		'width' 	: '953px',
-		'height'	: '779px'
-	});
-	$("#frameBox").fadeIn();
-	$("#fix").fadeOut();
-	$("#fix2").fadeIn();
-}
 
 //清空hash
 function clearDom(){
