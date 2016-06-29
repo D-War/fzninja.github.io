@@ -13,6 +13,19 @@ window.onhashchange = function(){
 
 //选项点击监听
 function boxClick(){
+	$(".content_list").hover(function(){
+		var tsWidth = $(this).width();
+		var tsHeight= $(this).height();
+		$(this).width(tsWidth - 10 + 'px');
+		$(this).height(tsHeight - 10 + 'px');
+		
+	},function(){
+		var tsWidth = $(this).width();
+		var tsHeight= $(this).height();
+		$(this).width(tsWidth + 10 + 'px');
+		$(this).height(tsHeight + 10 + 'px');
+	});
+
 	$(".content_list").click(function(){
 		Jump($(this).data('url'));
 	});

@@ -389,6 +389,7 @@ body{
 
 .content_list:hover .clImg{
 	transform: scale(1.5);
+	-webkit-transform: scal(1.5);
 }
 
 
