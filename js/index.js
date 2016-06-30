@@ -1,4 +1,5 @@
 window.onload = function(){
+	moveIcon();
 	$("#loader").hide();
 }
 
@@ -9,29 +10,6 @@ $(document).ready(function(){
 
 window.onhashchange = function(){
 	judge();
-}
-
-//选项点击监听
-function boxClick(){
-	$(".content_list").hover(function(){
-		var tsWidth = $(this).width();
-		var tsHeight= $(this).height();
-		$(this).width(tsWidth - 10 + 'px');
-		$(this).height(tsHeight - 10 + 'px');
-		
-	},function(){
-		var tsWidth = $(this).width();
-		var tsHeight= $(this).height();
-		$(this).width(tsWidth + 10 + 'px');
-		$(this).height(tsHeight + 10 + 'px');
-	});
-
-	$(".content_list").click(function(){
-		Jump($(this).data('url'));
-	});
-	$("#fix2").click(function(){
-		window.location.href = "#";
-	});
 }
 
 //跳转
@@ -75,7 +53,6 @@ function fzAssembly(Aurl,w,h){
 	$("#fix2").fadeIn();
 }
 
-
 //清空hash
 function clearDom(){
 	$("#frameSrc").attr("src","");
@@ -88,5 +65,37 @@ function clearDom(){
 	$("#fix2").fadeOut();
 }
 
+//选项点击监听
+function boxClick(){
+	$(".content_list").hover(function(){
+		var tsWidth = $(this).width();
+		var tsHeight= $(this).height();
+		$(this).width(tsWidth - 10 + 'px');
+		$(this).height(tsHeight - 10 + 'px');
+		
+	},function(){
+		var tsWidth = $(this).width();
+		var tsHeight= $(this).height();
+		$(this).width(tsWidth + 10 + 'px');
+		$(this).height(tsHeight + 10 + 'px');
+	});
+
+	$(".content_list").click(function(){
+		Jump($(this).data('url'));
+	});
+	$("#fix2").click(function(){
+		window.location.href = "#";
+	});
+}
+
+
+//站长统计图表移动
+function moveIcon(){
+	var stationMasterDom = $("body a:first");
+	console.log(stationMasterDom)
+	$("#zztjs").html(stationMasterDom);
+	$("#zztjs").find("a").attr("class","iconfont");
+	$("#zztjs").find("a").html("&#xe303;");
+}
 
 
