@@ -272,6 +272,7 @@ body{
 	height: 310px;
 	left: 5px;
 	top: 0;
+	background: #fff;
 }
 
 #cl2{
@@ -406,24 +407,22 @@ body{
 	color: #19A2DE;
 }
 
-#cl1_l{
-	left: 0;
-	top: 0;
-	background: #cccccc;
-	animation: rightOrleft1 10s;
-	animation-iteration-count:infinite;
-	-webkit-animation: rightOrleft1 15s;
-	-webkit-animation-iteration-count:infinite;
+#cl1 a{
+	display: block;
+	width: 100%;
 }
 
-#cl1_r{
-	left: 100%;
-	top: 0;
-	background: #cccccc;
-	animation: rightOrleft2 10s;
-	animation-iteration-count:infinite;
-	-webkit-animation: rightOrleft2 15s;
-	-webkit-animation-iteration-count:infinite;
+#cl1 a img{
+	display: block;
+	width: 100%;
+	margin-top: 55px;
+}
+
+.xssx{
+    display: block;
+    text-align: right;
+    margin-right: 36px;
+    color: #1276ff;
 }
 
 #cl2_t{
