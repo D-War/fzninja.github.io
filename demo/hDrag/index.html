@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>hDrag</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#box{
+			width: 850px;
+			height: 650px;
+			top: 60px;
+			background-size: 100% 100%;
+			position: absolute;
+			border: 1px solid #ccc;
+			background: #fff;
+			background: url('./bg.jpg') 0 0 no-repeat;
+			box-shadow: 10px 10px 30px #888888;
+		}
+		#box #title{
+			width: 100%;
+			height: 30px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: #fff;
+		}
+		#box #tz{
+		    position: absolute;
+		    display: none;
+		    top: 250px;
+		    width: 100%;
+		    font-size: 38px;
+		    outline: none;
+		    border: none;
+		    text-align: center;
+		    background: rgba(0,0,0,0);
+		    color: #fff;
+		}
+		#box #title .name{
+			position: absolute;
+			left: 10px;
+			font-size: 12px;
+			height: 30px;
+			line-height: 30px;
+		}
+		#box #title .close{
+			position: absolute;
+			right: 0;
+			width: 65px;
+			height: 30px;
+			background: #cecece;
+			color: #fff;
+			line-height: 30px;
+			text-align: center;
+		}
+		#box #title .close:hover{
+			cursor: pointer;
+			background: #ff4545;
+		}
+		#box #title .close:active{
+			background: #ff3232;
+		}
+		.page{
+			overflow:hidden;
+			height: 800px;
+		}
+		.page2{
+			background: #33CCFF;
+		}
+		.graph{
+			position: absolute;
+			cursor: move;
+		}
+		.y{
+			width: 20px;
+		    height: 20px;
+		    background: #7fee1d;
+		    -moz-border-radius: 20px;
+		    -webkit-border-radius: 20px;
+		    border-radius: 20px;
+		}
+		.z{
+			width: 20px;
+    		height: 20px;
+    		background: #f447ff;
+		}
+		.c{
+			width: 30px;
+			height: 10px;
+			background: #4da1f7;
+		}
+		.t{
+			width: 20px;
+    		height: 10px;
+    		background: #e9337c;
+    		-webkit-border-radius: 20px / 10px;
+    		-moz-border-radius: 20px / 10px;
+    		border-radius: 20px / 10px;
+		}
+		.s{
+			width: 0;
+		    height: 0;
+		    border-bottom: 10px solid #fcf921;
+		    border-left: 5px solid transparent;
+		    border-right: 5px solid transparent;
+		}
+		.s1{
+			width: 0;
+		    height: 0;
+		    border-top: 40px solid #20a3bf;
+		    border-left: 20px solid transparent;
+		    border-right: 20px solid transparent;
+		}
+		.s2{
+			width: 0;
+		    height: 0;
+		    border-top: 5px solid transparent;
+		    border-right: 10px solid #6bbf20;
+		    border-bottom: 5px solid transparent;
+		}
+		.s3{
+			width: 0;
+		    height: 0;
+		    border-top: 15px solid transparent;
+		    border-left: 30px solid #ff5a00;
+		    border-bottom: 15px solid transparent;
+		}
+		.s4{
+			width: 0;
+		    height: 0;
+		    border-right: 10px solid transparent;
+		    border-top: 10px solid #ffde00;
+		    border-left: 10px solid #ffde00;
+		    border-bottom: 10px solid #ffde00;
+		    border-top-left-radius: 10px;
+		    border-top-right-radius: 10px;
+		    border-bottom-left-radius: 10px;
+		    border-bottom-right-radius: 10px;
+		}
+		.s5{
+			width: 0;
+		    height: 0;
+		    border-right: 10px solid transparent;
+		    border-top: 10px solid #ffc000;
+		    border-left: 10px solid #ffc000;
+		    border-bottom: 10px solid #ffc000;
+		    border-top-left-radius: 10px;
+		    border-top-right-radius: 10px;
+		    border-bottom-left-radius: 10px;
+		    border-bottom-right-radius: 10px;
+		}
+		body{
+			background: #f1f1f1;
+		}
+	</style>
+</head>
+<body onresize="initPosition()">
+	<div class="page">
+		<div id="box">
+			<div id="title">
+				<div class="name">
+					hDrag
+				</div>
+				<div class="close">
+					X
+				</div>
+			</div>
+			<input type="text" id="tz" value="拖拽我的标题栏试试吧!">
+		</div>
+	</div>
+	<div class="page page2" id="pg2">
+		
+	</div>
+	<script src="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+	<script src="./js/hDrag.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			initPosition();
+		});
+		function initPosition(){
+			var w = $(window).width();
+			var h = $(window).height();
+			$(".graph").remove();
+			var arr = ['y','z','c','t','s','s1','s2','s3','s4','s5'];
+			for(var i = 0; i < 200; i ++){
+				var sjs = parseInt(10*Math.random());
+				var html = 
+					'<div class="graph '+arr[sjs]+'">'+
+					'</div>';
+				$("#pg2").append(html);
+			}
+			$(".graph").each(function(){
+				$(this).css({
+					left : parseInt((w-150)*Math.random()),
+					top : (h*Math.random()) + h - 100
+				});
+			});
+
+			$('#box').css({
+				left : (w - $('#box').width()) / 2
+			});
+			$('.page').css({
+				width : w,
+				height : h
+			});
+			$("#tz").fadeIn(1000);
+			$("#tz").focus();
+			animations();
+		}
+		
+		function animations(){
+			var yiqun = new hDrag({
+				dom : '.graph'
+			});
+		}
+
+		var yige = new hDrag({
+			dom : '#title',
+			parent : '#box',
+			overflow : false,
+			mouseDown : function(){
+				console.log('鼠标按下');
+			},
+			mouseDownMove : function(){
+				console.log('鼠标按下且移动');
+			},
+			mouseStop : function(){
+				console.log('释放');
+			}
+		});
+
+		//yige.spill(true);
+	</script>
+</body>
+</html>
