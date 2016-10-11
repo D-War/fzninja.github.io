@@ -1,3 +1,8 @@
+/**
+ * [作者:黄尧鑫]
+ * [qq:497915773]
+ * [个人网站:huangyaoxin.com]
+ */
 ;(function(){
 	hDrag = function(obj){
 		var self = this;
